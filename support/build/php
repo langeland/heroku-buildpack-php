@@ -157,6 +157,11 @@ export PATH=${OUT_PREFIX}/bin:$PATH
     --enable-mbstring=shared \
     --enable-pcntl=shared \
     --enable-shmop=shared \
+
+    --enable-sysvsem \
+    --enable-sysvshm \
+    --enable-sysvmsg \
+
     --enable-soap=shared \
     --with-sqlite3=shared \
     --with-pdo-sqlite=shared \
